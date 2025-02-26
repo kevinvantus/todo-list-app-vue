@@ -1,1 +1,6 @@
 @import './base.css';
+
+#app {
+  background: url('./images/bg-mobile-light.jpg') no-repeat;
+  height: 100%;
+}
