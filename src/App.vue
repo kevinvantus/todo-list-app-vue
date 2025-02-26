@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainHeader from './components/MainHeader.vue'
+</script>
 
 <template>
-  <main></main>
+  <div class="container">
+    <main>
+      <MainHeader />
+    </main>
+  </div>
 </template>
 
 <style scoped></style>
