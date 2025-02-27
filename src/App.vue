@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MainHeader from './components/MainHeader.vue'
 import TextInput from './components/TextInput.vue'
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import TextInput from './components/TextInput.vue'
     <MainHeader />
     <main>
       <TextInput />
+      <TodoList />
     </main>
   </div>
 </template>

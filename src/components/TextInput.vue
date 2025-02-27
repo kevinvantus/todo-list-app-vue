@@ -18,14 +18,6 @@ form {
   gap: 12px;
 }
 
-.oval {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
-}
-
 input {
   width: 100%;
   height: 100%;

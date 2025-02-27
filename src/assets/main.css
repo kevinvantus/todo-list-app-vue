@@ -1,7 +1,7 @@
 @import './base.css';
 
 #app {
-  background: url('./images/bg-mobile-light.jpg') no-repeat;
+  background: url('./images/bg-mobile-light.jpg') no-repeat center top/contain;
   height: 100%;
 }
 
@@ -29,4 +29,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.oval {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
 }
