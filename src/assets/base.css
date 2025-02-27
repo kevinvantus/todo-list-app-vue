@@ -41,6 +41,7 @@ body {
   font-size: 1.125rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
   background: hsla(0, 0%, 98%, 1);
 }
 
